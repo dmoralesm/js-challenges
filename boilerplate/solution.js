@@ -1,4 +1,4 @@
-function _FUNCTION_NAME(a,b) {
+function _FUNCTION_NAME(a, b) {
   return a + b;
 }
 

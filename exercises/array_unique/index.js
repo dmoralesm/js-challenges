@@ -23,4 +23,3 @@ console.log('Output:', result);
 */
 
 module.exports = array_unique;
-

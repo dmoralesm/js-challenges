@@ -26,4 +26,3 @@ console.log('Output:', result);
 */
 
 module.exports = max_subarray_sum;
-

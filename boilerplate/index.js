@@ -4,7 +4,7 @@
 
 const solution = require('./solution');
 
-function _FUNCTION_NAME(a,b) {
+function _FUNCTION_NAME(a, b) {
   /*
     Remove the function body and write
     your own solution in place.
@@ -18,4 +18,3 @@ console.log('Output:', result);
 */
 
 module.exports = _FUNCTION_NAME;
-
