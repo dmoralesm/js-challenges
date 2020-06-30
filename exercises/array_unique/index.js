@@ -17,8 +17,10 @@ function array_unique(arr) {
   return solution(...arguments);
 }
 
+/*
 const result = array_unique([1,1,2]);
 console.log('Output:', result);
+*/
 
 module.exports = array_unique;
 

@@ -19,7 +19,9 @@ function subset_sum(arr, target) {
   return solution(...arguments);
 }
 
+/*
 const result = subset_sum([1,4,5], 6);
 console.log('Output:', result);
+*/
 
 module.exports = subset_sum;

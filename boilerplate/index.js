@@ -12,8 +12,10 @@ function _FUNCTION_NAME(a,b) {
   return solution(...arguments);
 }
 
+/*
 const result = _FUNCTION_NAME(1,2);
 console.log('Output:', result);
+*/
 
 module.exports = _FUNCTION_NAME;
 

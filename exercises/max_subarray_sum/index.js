@@ -20,8 +20,10 @@ function max_subarray_sum(arr) {
   return solution(...arguments);
 }
 
+/*
 const result = max_subarray_sum([-1,2,4,-3,5,2,-5,2]);
 console.log('Output:', result);
+*/
 
 module.exports = max_subarray_sum;
 
