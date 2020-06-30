@@ -12,12 +12,38 @@
     "jest": "^26.1.0",
     "nodemon": "^2.0.4"
   },
+  "devDependencies": {
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5"
+  },
   "nodemonConfig": {
-    "ignore": ["solution.js", "test.js"],
+    "ignore": [
+      "solution.js",
+      "test.js"
+    ],
     "delay": "500"
   },
   "jest": {
-    "testRegex": ["test.js"],
-    "watchPathIgnorePatterns": ["<rootDir>/node_modules/"]
+    "testRegex": [
+      "test.js"
+    ],
+    "watchPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
   }
 }
