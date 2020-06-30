@@ -1,0 +1,23 @@
+{
+  "name": "js-challenges",
+  "version": "1.0.0",
+  "description": "Code challenges",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Morales",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "nodemonConfig": {
+    "ignore": ["solution.js", "test.js"],
+    "delay": "500"
+  },
+  "jest": {
+    "testRegex": ["test.js"],
+    "watchPathIgnorePatterns": ["<rootDir>/node_modules/"]
+  }
+}
